@@ -1,9 +1,213 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Website</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Horologium Advising | Plan Your Next Step</title>
+  <meta name="description" content="Horologium Advising helps high school students confidently choose their next step after graduation." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Merriweather:wght@700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <h1>Hello, World! Welcome to my website.</h1>
+  <header class="site-header" id="top">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="#top" aria-label="Horologium Advising home">
+        <span class="brand-mark" aria-hidden="true">H</span>
+        <span>Horologium Advising</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+        <span class="sr-only">Toggle navigation</span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-links" id="nav-links">
+        <a href="#how-it-works">How it works</a>
+        <a href="#pathways">Pathways</a>
+        <a href="#schools">For schools</a>
+        <a href="#contact" class="nav-cta">Request info</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section">
+      <div class="hero-content reveal">
+        <p class="eyebrow">Post-graduation advising for high school students</p>
+        <h1>Helping students confidently choose their next step after graduation.</h1>
+        <p class="hero-copy">
+          College, careers, apprenticeships, military service, gap years, and more — Horologium Advising helps every student build a clear, realistic plan for what comes next.
+        </p>
+        <div class="hero-actions">
+          <a href="#contact" class="button primary">Start a conversation</a>
+          <a href="#how-it-works" class="button secondary">See how it works</a>
+        </div>
+        <div class="trust-row" aria-label="Key benefits">
+          <span>School-friendly</span>
+          <span>Student-centered</span>
+          <span>Outcome-focused</span>
+        </div>
+      </div>
+
+      <div class="hero-card reveal" aria-label="Student planning roadmap preview">
+        <div class="card-topline">
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+        <h2>Your Next-Step Roadmap</h2>
+        <div class="timeline">
+          <div class="timeline-item active">
+            <span>1</span>
+            <div>
+              <h3>Discover strengths</h3>
+              <p>Interests, values, skills, and support needs.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <span>2</span>
+            <div>
+              <h3>Compare options</h3>
+              <p>College, work, training, service, or a blended path.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <span>3</span>
+            <div>
+              <h3>Build the plan</h3>
+              <p>Deadlines, applications, costs, and next actions.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section stats" aria-label="Program highlights">
+      <div class="stat reveal">
+        <strong>1:1</strong>
+        <span>Student guidance</span>
+      </div>
+      <div class="stat reveal">
+        <strong>6+</strong>
+        <span>Post-grad pathways</span>
+      </div>
+      <div class="stat reveal">
+        <strong>100%</strong>
+        <span>Clear next steps</span>
+      </div>
+    </section>
+
+    <section class="section split" id="how-it-works">
+      <div class="section-heading reveal">
+        <p class="eyebrow">How it works</p>
+        <h2>Simple support students can actually use.</h2>
+      </div>
+      <div class="steps">
+        <article class="step reveal">
+          <span class="step-number">01</span>
+          <h3>Understand the student</h3>
+          <p>Students identify their goals, interests, strengths, worries, and practical constraints.</p>
+        </article>
+        <article class="step reveal">
+          <span class="step-number">02</span>
+          <h3>Explore realistic paths</h3>
+          <p>Advisors help students compare options based on fit, cost, timeline, and opportunity.</p>
+        </article>
+        <article class="step reveal">
+          <span class="step-number">03</span>
+          <h3>Create a next-step plan</h3>
+          <p>Each student leaves with priorities, deadlines, and a plan they can explain with confidence.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section pathways" id="pathways">
+      <div class="section-heading center reveal">
+        <p class="eyebrow">Pathways</p>
+        <h2>Not every student needs the same roadmap.</h2>
+        <p>Horologium Advising helps students compare multiple routes without making one path feel like the only “right” choice.</p>
+      </div>
+      <div class="pathway-grid">
+        <article class="pathway-card reveal">
+          <span aria-hidden="true">🎓</span>
+          <h3>College</h3>
+          <p>Majors, applications, affordability, and campus fit.</p>
+        </article>
+        <article class="pathway-card reveal">
+          <span aria-hidden="true">🛠️</span>
+          <h3>Trades & apprenticeships</h3>
+          <p>Hands-on training, earning while learning, and certification timelines.</p>
+        </article>
+        <article class="pathway-card reveal">
+          <span aria-hidden="true">💼</span>
+          <h3>Career launch</h3>
+          <p>Entry-level roles, resumes, interviews, and workplace readiness.</p>
+        </article>
+        <article class="pathway-card reveal">
+          <span aria-hidden="true">🌍</span>
+          <h3>Gap year or service</h3>
+          <p>Purposeful time away, volunteering, travel, and structured programs.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section schools" id="schools">
+      <div class="school-panel reveal">
+        <div>
+          <p class="eyebrow">For schools</p>
+          <h2>A trusted partner for counselors, families, and students.</h2>
+          <p>
+            Horologium Advising is designed to complement your counseling team by giving students more time, structure, and clarity as they prepare for life after high school.
+          </p>
+        </div>
+        <ul class="check-list">
+          <li>Clear student-facing resources</li>
+          <li>Flexible advising formats</li>
+          <li>Family-friendly communication</li>
+          <li>Practical plans students can act on</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="contact-card reveal">
+        <p class="eyebrow">Request information</p>
+        <h2>Bring Horologium Advising to your students.</h2>
+        <p>Send a quick note and we’ll follow up with program options for your school.</p>
+
+        <form class="contact-form" id="contact-form">
+          <label>
+            Name
+            <input type="text" name="name" placeholder="Your name" required>
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" placeholder="you@school.org" required>
+          </label>
+          <label>
+            School or organization
+            <input type="text" name="school" placeholder="School name">
+          </label>
+          <label>
+            Message
+            <textarea name="message" rows="4" placeholder="Tell us what your students need most."></textarea>
+          </label>
+          <button class="button primary" type="submit">Submit request</button>
+          <p class="form-note" id="form-note" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Horologium Advising. Helping students move forward with confidence.</p>
+    <a href="#top">Back to top</a>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
