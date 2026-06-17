@@ -532,7 +532,7 @@ input:focus, textarea:focus {
   }
 }
 
-.majorquiz-page {
+.quiz-page {
   min-height: 100vh;
   background: #f7f8fa;
   display: flex;
@@ -541,7 +541,7 @@ input:focus, textarea:focus {
   padding: 40px 20px;
 }
 
-.majorquiz-card {
+.quiz-card {
   max-width: 750px;
   background: white;
   padding: 40px;
