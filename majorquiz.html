@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Future Path Quiz | Horologium Advising</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <main class="quiz-page">
+    <section class="quiz-card">
+      <h1>Find Your Next Step</h1>
+      <p>Answer a few questions to discover which post-graduation path may fit you best.</p>
+
+      <form id="quizForm">
+        <div class="question">
+          <h3>1. What sounds most exciting after graduation?</h3>
+          <label><input type="radio" name="q1" value="college" required> Going to college</label>
+          <label><input type="radio" name="q1" value="career"> Starting a career</label>
+          <label><input type="radio" name="q1" value="gap"> Taking time to explore</label>
+        </div>
+
+        <div class="question">
+          <h3>2. How do you prefer to learn?</h3>
+          <label><input type="radio" name="q2" value="college" required> In a classroom</label>
+          <label><input type="radio" name="q2" value="career"> Hands-on experience</label>
+          <label><input type="radio" name="q2" value="gap"> Through travel, projects, or volunteering</label>
+        </div>
+
+        <div class="question">
+          <h3>3. What is your biggest priority?</h3>
+          <label><input type="radio" name="q3" value="college" required> Earning a degree</label>
+          <label><input type="radio" name="q3" value="career"> Making money sooner</label>
+          <label><input type="radio" name="q3" value="gap"> Figuring out what I want</label>
+        </div>
+
+        <button type="submit" class="btn-primary">See My Result</button>
+      </form>
+
+      <div id="result" class="result-box"></div>
+    </section>
+  </main>
+
+  <script src="quiz.js"></script>
+</body>
+</html>
